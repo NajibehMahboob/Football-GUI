@@ -19,32 +19,21 @@ public class FootballApp extends JFrame {
 		
 		setResizable(false);
 		
+		addGuiComponents();
+				
+	}
+
+	private void addGuiComponents() {
+		//Our Buttons
+		JButton GermanyButton = new JButton("Germany");
+		GermanyButton.setBounds(25, 15, 200, 45);
+		add(GermanyButton);
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		JButton ItalyButton = new JButton("Italy");
+		ItalyButton.setBounds(300, 15, 200, 45);
+		add(ItalyButton);
 		
 		
 		
 	}
-	
-	
-	
-
 }
