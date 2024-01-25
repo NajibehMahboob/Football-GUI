@@ -32,6 +32,32 @@ public class FootballApp extends JFrame {
 		JButton ItalyButton = new JButton("Italy");
 		ItalyButton.setBounds(300, 15, 200, 45);
 		add(ItalyButton);
+
+
+	JButton EnglandButton = new JButton("England");
+		EnglandButton.setBounds(25 , 75 , 200 , 45);
+		add(EnglandButton);
+		
+		
+		JButton SpainButton = new JButton("Spain");
+		SpainButton.setBounds(309, 75 , 200, 45);
+		add(SpainButton);
+		
+		
+		JButton IranButton = new JButton("Iran");
+		IranButton.setBounds(25 , 135 , 200 , 45);
+		add(IranButton);
+		
+		
+		JButton BrazilButton = new JButton("Brazil");
+		BrazilButton.setBounds(309, 135 , 200, 45);
+		add(BrazilButton);
+		
+		
+		JButton JamjahaniButton = new JButton(" جهانی جام");
+		JamjahaniButton.setBounds(167, 195 , 200, 45);
+		add(JamjahaniButton);
+		
 		
 		
 		
