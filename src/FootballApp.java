@@ -30,7 +30,7 @@ public class FootballApp extends JFrame {
 		add(GermanyButton);
 		
 		JButton ItalyButton = new JButton("Italy");
-		ItalyButton.setBounds(300, 15, 200, 45);
+		ItalyButton.setBounds(309, 15, 200, 45);
 		add(ItalyButton);
 
 
@@ -54,7 +54,7 @@ public class FootballApp extends JFrame {
 		add(BrazilButton);
 		
 		
-		JButton JamjahaniButton = new JButton(" جهانی جام");
+		JButton JamjahaniButton = new JButton("  World Cup");
 		JamjahaniButton.setBounds(167, 195 , 200, 45);
 		add(JamjahaniButton);
 		
