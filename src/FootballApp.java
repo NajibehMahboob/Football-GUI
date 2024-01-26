@@ -216,6 +216,9 @@ public class FootballApp extends JFrame {
 						add(sixthteamscore);
 				
 		
+
+
+
 		
 		
 		
