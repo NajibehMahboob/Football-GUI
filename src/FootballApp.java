@@ -7,8 +7,9 @@ import java.awt.Font;
 import java.io.File;
 
 public class FootballApp extends JFrame {
-	JLabel firstteamlable , firstteamscore ,secondteamlable ,secondteamscore ,timelable ,datalable , goalscorerfirstteam ,
-	currentsitiationlable , goalscorersecondteam , referee , Bounds;
+		JLabel firstteamlable , firstteamscore ,secondteamlable ,secondteamscore ,timelable1 ,datalable1 , goalscorerfirstteam ,
+	currentsitiationlable , goalscorersecondteam , referee , Bounds , border1 , border2 , border3 , thirdteamscore ,thirdteamlable, fourthteamlable ,fourthteamscore 
+	,fifthteamlable , fifthteamscore , sixthteamlable , sixthteamscore, timelable2 ;
 	
 	
 	public FootballApp(){
