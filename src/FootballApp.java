@@ -69,7 +69,7 @@ public class FootballApp extends JFrame {
 		add(BrazilButton);
 		
 		
-		JButton JamjahaniButton = new JButton(" world cup");
+		JButton JamjahaniButton = new JButton(" جهانی جام");
 		JamjahaniButton.setBounds(167, 195 , 200, 45);
 		add(JamjahaniButton);
 		
