@@ -8,7 +8,8 @@ import java.io.File;
 
 public class FootballApp extends JFrame {
 	JLabel firstteamlable , firstteamscore ,secondteamlable ,secondteamscore ,timelable ,datalable , goalscorerfirstteam ,
-	currentsitiationlable , goalscorersecondteam , referee , Bounds;
+	currentsitiationlable , goalscorersecondteam , referee , Bounds , border1 , border2 , border3 , thirdteamscore ,thirdteamlable, fourthteamlable ,fourthteamscore 
+	,fifthteamlable , fifthteamscore , sixthteamlable , sixthteamscore, timelable2 ;
 	
 	
 	public FootballApp(){
@@ -113,8 +114,7 @@ public class FootballApp extends JFrame {
 		currentsitiationlable = new JLabel ("During the game");
 		currentsitiationlable.setBounds(205,344,200, 45);
 		currentsitiationlable.setFont(new Font ("Dialog", Font.PLAIN , 14));
-		currentsitiationlable.setHorizontalAlignment(SwingConstants.CENTER);
-		currentsitiationlable.setBorder(BorderFactory.createLineBorder(Color.pink));
+		
 		add(currentsitiationlable);
 		
 		//goal scorer for first team
@@ -134,6 +134,76 @@ public class FootballApp extends JFrame {
 		referee.setBounds(310,295,200, 45);
 		referee.setFont(new Font ("Dialog", Font.PLAIN , 14));
 		add(referee);
+		
+		// border
+		border1 =new JLabel ("     ");
+		border1.setBounds(108,300,300, 100);
+		border1.setHorizontalAlignment(SwingConstants.CENTER);
+		border1.setBorder(BorderFactory.createLineBorder(Color.blue));
+		add(border1);
+				
+				
+				
+		border2 =new JLabel ("     ");
+		border2.setBounds(108,440,300, 100);
+		border2.setHorizontalAlignment(SwingConstants.CENTER);
+		border2.setBorder(BorderFactory.createLineBorder(Color.blue));
+		add(border2);
+		
+		border3 =new JLabel ("     ");
+		border3.setBounds(90,580,330, 100);
+		border3.setHorizontalAlignment(SwingConstants.CENTER);
+		border3.setBorder(BorderFactory.createLineBorder(Color.blue));
+		add(border3);
+		
+		
+		
+		
+		// 3rd team
+		thirdteamlable = new JLabel ("Arsenal");
+		thirdteamlable.setBounds(135, 455, 200, 45);
+		thirdteamlable.setFont(new Font ("Dialog", Font.PLAIN , 24));
+		add(thirdteamlable);
+		
+		thirdteamscore = new JLabel ("3");
+		thirdteamscore.setBounds(235,455,200, 45);
+		thirdteamscore.setFont(new Font ("Dialog", Font.BOLD , 24));
+		add(thirdteamscore);
+		
+		// fourth team 
+		fourthteamlable = new JLabel ("chelsea");
+		fourthteamlable.setBounds(300,455, 200, 45);
+		fourthteamlable.setFont(new Font ("Dialog", Font.PLAIN , 24));
+		add(fourthteamlable);
+						
+		fourthteamscore = new JLabel ("0");
+		fourthteamscore.setBounds(280,455,200, 45);
+		fourthteamscore.setFont(new Font ("Dialog", Font.BOLD , 24));
+		add(fourthteamscore);
+		// 5th team
+		fifthteamlable = new JLabel ("Leeds United");
+		fifthteamlable.setBounds(100, 595 , 200, 45);
+		fifthteamlable.setFont(new Font ("Dialog", Font.PLAIN , 22));
+		add(fifthteamlable);
+		
+		fifthteamscore = new JLabel ("3");
+		fifthteamscore.setBounds(240,595,200, 45);
+		fifthteamscore.setFont(new Font ("Dialog", Font.BOLD , 24));
+		add(fifthteamscore);
+		
+		
+		
+		
+		// 6th team 
+		sixthteamlable = new JLabel ("chelsea");
+		sixthteamlable.setBounds(320,595, 200, 45);
+		sixthteamlable.setFont(new Font ("Dialog", Font.PLAIN , 24));
+		add(sixthteamlable);
+				
+		sixthteamscore = new JLabel ("3");
+		sixthteamscore.setBounds(290,595,200, 45);
+		sixthteamscore.setFont(new Font ("Dialog", Font.BOLD , 24));
+		add(sixthteamscore);
 		
 		
 		
